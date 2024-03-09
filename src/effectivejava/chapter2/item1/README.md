@@ -1,4 +1,4 @@
-## Item 1
+## Item 1 - static factory method
 
 - a class can provide a public *static factory* method, which is simply a 
 static method that returns an instance of the class
