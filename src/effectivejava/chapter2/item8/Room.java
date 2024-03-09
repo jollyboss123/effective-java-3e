@@ -7,6 +7,10 @@ public class Room implements AutoCloseable {
     private static final Cleaner cleaner = Cleaner.create();
 
     // Resource that requires cleaning. Must not refer to Room!
+    // if referred will create circular reference and would prevent the
+    // Room instance from becoming eligible for garbage collection.
+    // Must be a static nested class because nonstatic nested classes
+    // contains references to their enclosing instances
     private static class State implements Runnable {
         int numJunkPiles; // Number of junk piles in this room
 
