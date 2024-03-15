@@ -13,8 +13,8 @@ public final class CaseInsensitiveString
 
     // Fixed equals method (Page 40)
     @Override public boolean equals(Object o) {
-        return o instanceof CaseInsensitiveString &&
-                ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
+        return o instanceof CaseInsensitiveString cis &&
+                cis.s.equalsIgnoreCase(s);
     }
 
     @Override public int hashCode() {
