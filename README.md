@@ -15,3 +15,4 @@
 #### [Overriding clone](https://github.com/jollyboss123/effective-java-3e/tree/master/src/effectivejava/chapter3/item13)
 #### [Implementing comparable](https://github.com/jollyboss123/effective-java-3e/tree/master/src/effectivejava/chapter3/item14)
 #### [Minimize accessibility of classes and members](https://github.com/jollyboss123/effective-java-3e/tree/master/src/effectivejava/chapter4/item15)
+#### [Use accessor methods in public classes](https://github.com/jollyboss123/effective-java-3e/tree/master/src/effectivejava/chapter4/item16)
